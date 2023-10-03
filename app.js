@@ -20,8 +20,8 @@ const app = express()
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Adam@1063',
-    database: 'cs262_proj'
+    password: 'password',
+    database: 'institute_management'
 })
 
 app.use(logger('dev'));
